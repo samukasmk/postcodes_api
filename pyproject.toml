@@ -1,0 +1,9 @@
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "core.settings"
+
+minversion = "6.0"
+addopts = "-s -v --tb=long --cache-clear --flakes --cov=postcodes"
+testpaths = [
+    "tests",
+]
+python_files = "tests.py test_*.py *_tests.py"
