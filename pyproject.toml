@@ -5,6 +5,5 @@ minversion = "6.0"
 addopts = "-s -v --tb=long --cache-clear --flakes --cov=postcodes"
 testpaths = [
     "tests",
-    "integration",
 ]
 python_files = "tests.py test_*.py *_tests.py"
